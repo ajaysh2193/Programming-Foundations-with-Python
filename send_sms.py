@@ -6,6 +6,6 @@ client = Client(account_sid, auth_token)
 
 message = client.messages.create(to="+917531895977",
                                              from_="+17077556763",
-                                             body="Hello there Ajay!")
+                                             body="Hello Ajay!")
 print(message.sid)
 

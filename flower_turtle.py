@@ -1,4 +1,5 @@
 import turtle
+
 def draw_rhombus(some_turtle):
     for i in range(1,3):
         some_turtle.forward(100)
@@ -25,7 +26,7 @@ def draw_art():
         brad.right(10)
     for i in range(37,38):
         draw_line(brad)
-    
     window.exitonclick()
+    
 draw_art()
                    
